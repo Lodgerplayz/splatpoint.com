@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPLATPOINT</title>
+</head>
+<body>
+    <h1>SPLATPOINT</h1><body>
+        <a href="contact.html">contact us</a>
+        <a href="turbothrills.html">game privacy</a>
+    
+    
+    <button onclick="window.location.href='https://www.youtube.com/@Splatpoint'">splatpoint</button>
+    <button onclick="window.location.href='https://www.youtube.com/@lodgerplayz_games'">Lodgerplayz</button>
+    <button onclick="window.location.href='https://www.youtube.com/@Justquizzing/videos'"
+
+
+
+    
+    '">random</button>
+    <p>Welcome to splatpoint here you can see some of our games Although we only have one game We think you will really enjoy it. 
+<iframe width="2000" height="1000" src="https://www.youtube.com/embed/vg4YgUGT9U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Mini-game: Guess the Number -->
+    <div id="game">
+        <h3>Guess the Number</h3>
+        <p>Try to guess the secret number between 1 and 100.</p>
+        <input type="number" id="guess" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Check</button>
+        <p id="result"></p>
+    </div>
+    
+    <footer>
+        </p>
+    </footer>
+we are splatpoint, the website may not be good because we are just starting out but if you like our website I am very grateful and if you want to support us just download our games Now I don't know if you are reading this in the future if you are then you may be able to play our games but if you are in the present our games may not be avalible Bye.
+    <script>
+        const secretNumber = Math.floor(Math.random() * 100) + 1;
+        let attempts = 0;
+
+        function checkGuess() {
+            const guess = parseInt(document.getElementById('guess').value);
+            attempts++;
+
+            if (guess === secretNumber) {
+                document.getElementById('result').textContent = `Congratulations! You guessed the number ${secretNumber} in ${attempts} attempts.`;
+            } else if (guess < secretNumber) {
+                document.getElementById('result').textContent = 'Try a higher number.';
+            } else {
+                document.getElementById('result').textContent = 'Try a lower number.';
+            }
+        }
+        
+  <html></html>
